@@ -1,0 +1,22 @@
+{
+  "name": "monolith",
+  "version": "1.0.0",
+  "description": "monolith learning",
+  "scripts": {
+    "build": "pnpm recursive run build",
+    "start": "pnpm --parallel start"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.23.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@11.23.0",
+  "devDependencies": {
+    "@types/node": "^26.4.0",
+    "nodemon": "^3.1.14",
+    "tsx": "^4.23.12"
+  }
+}
